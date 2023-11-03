@@ -1,3 +1,4 @@
+import React from "react";
 import SectionTitle from "../Common/SectionTitle";
 import Image from "next/image";
 

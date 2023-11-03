@@ -1,4 +1,5 @@
-import { Testimonial } from "@/types/testimonial";
+import React from "react";
+import { Testimonial } from "types/testimonial";
 
 const starIcon = (
   <svg width="18" height="16" viewBox="0 0 18 16" className="fill-current">

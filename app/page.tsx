@@ -1,9 +1,10 @@
-import AboutSection from "@/components/About/AboutSection";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
+import Features from "components/Features";
+import Hero from "components/Hero";
+import Testimonials from "components/Testimonials";
+import React from "react";
+import ScrollUp from "components/Common/ScrollUp";
+import AboutSection from "components/About/AboutSection";
 
 export const metadata: Metadata = {
   title: "Online test",

@@ -1,6 +1,7 @@
-import { Testimonial } from "@/types/testimonial";
+import { Testimonial } from "types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import React from "react";
 
 const testimonialData: Testimonial[] = [
   {

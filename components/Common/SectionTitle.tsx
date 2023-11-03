@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
 
 const SectionTitle = ({
   title,
@@ -24,7 +25,6 @@ const SectionTitle = ({
   };
 
   return (
-    <>
       <div
         className={`wow fadeInUp w-full ${center ? "mx-auto text-center" : ""}`}
         data-wow-delay=".1s"
@@ -57,7 +57,6 @@ const SectionTitle = ({
           </div>
         )}
       </div>
-    </>
   );
 };
 
