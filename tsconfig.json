@@ -21,10 +21,10 @@
         "name": "next"
       }
     ],
-    "baseUrl": "./app",
+    "baseUrl": "./src",
     "paths": {
       "@/*": ["/*"],
-      "@component": ["component/*"]
+      "@components/*": ["components/*"]
     }
   },
   "include": [
