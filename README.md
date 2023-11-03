@@ -1,43 +1,65 @@
-# Startup - Free Next.js Startup Website Template
+# tailwind-react-boilerplate :snowflake:
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+[![GitHub license](https://img.shields.io/github/license/toughyear/tailwind-react-boilerplate?style=flat-square)](https://github.com/toughyear/tailwind-react-boilerplate/blob/master/LICENSE) [![Tailwind CSS](https://img.shields.io/badge/tailwind-css-blue?style=flat-square)](https://tailwindcss.com/) [![GitHub stars](https://img.shields.io/github/stars/toughyear/tailwind-react-boilerplate?style=flat-square)](https://github.com/toughyear/tailwind-react-boilerplate/stargazers)
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+#### [Go to Live Demo :arrow_upper_right:](https://tailwind-react-boilerplate.now.sh/)
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+This is a create-react-app and tailwind based boilerplate with both development and production scripts (minified CSS).
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
+### How to use this boilerplate? :blue_heart:
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+Clone the repo or download this. Go to the directory and run command:
+`npm install`
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+This will install all the necessary dependencies.
+Now you can start building your react app just like you would in a CRA. No need to import any css files. Use intellisense to find the appropriate classes and make an awesome project!
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+Starting point for the project is: `index.js`
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+### Importing tailwind.generated.css :rocket:
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+You only need to add this once in index.js:
+`import "./tailwind.generated.css";`
+As it has already been added for you in index.js and is accesible to all components you don't need to do anything.
 
-### ⚡ Deploy Now
+## Available Scripts :penguin:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+In the project directory, you can run:
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+### `npm start` :watch:
 
+Runs the app in the development mode and watches for changes in tailwind classes.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
+### `npm test` :briefcase:
 
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build` :hammer:
+
+Builds the app for production to the `build` folder. Tailwind css generated is minified.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Leave a star !! :star:
+
+Leave a github star if you found this repo useful. This helps in increasing the visibility of this repo and others finding it too.
+
+## Have a question? :question:
+
+If you have a question, feel free raise an issue in repo or ask me here: [twitter](https://twitter.com/RajeevSinghN).
+
+## Do you want to contribute? :gift:
+
+Become a contributor in maintaining this boilerplate.
+Although we want to keep this repo as minimal as possible, we are also looking for adding more features and create a more complicated template project integrated with Firebase :fire: and other awesome features. Connect with me here: [twitter](https://twitter.com/RajeevSinghN).
